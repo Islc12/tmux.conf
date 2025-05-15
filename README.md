@@ -33,19 +33,17 @@ This repository contains my custom `tmux` configuration file, designed to enhanc
 ## Keybindings
 | Action                     | Keybinding           |
 |----------------------------|----------------------|
-| Split window horizontally  | `Ctrl-b %`          |
-| Split window vertically    | `Ctrl-b "`          |
-| Switch panes               | `Ctrl-b (Arrow keys)` |
-| Resize panes               | `Ctrl-b (Hold Alt + Arrow keys)` |
-| Create new window          | `Ctrl-b c`          |
-| Switch windows             | `Ctrl-b n / p`      |
-| Kill current pane          | `Ctrl-b x`          |
-| Reload tmux config         | `Ctrl-b r`          |
+| Split window horizontally  | `Ctrl-j/f %`          |
+| Split window vertically    | `Ctrl-j/f "`          |
+| Switch panes               | `Alt (Arrow keys)` |
+| Create new window          | `Ctrl-j/f c`          |
+| Switch windows             | `Ctrl-j/f n/p`      |
+| Kill current pane          | `Ctrl-j/f x`          |
+| Reload tmux config         | `Ctrl-j/f r`          |
 
 ## Dependencies
 - `tmux` (>= 3.0 recommended)
 - `xclip` or `xsel` (for clipboard integration on Linux)
-- `reattach-to-user-namespace` (for macOS clipboard support)
 
 ## Customization
 Feel free to modify `.tmux.conf` to fit your workflow. To apply changes, reload the configuration using:
